@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/*zh 2017 0523 v1.0*/
+//withdraw
+@import  "helpers/_mixins.scss";   
+.content{
+	.part_hd{
+		padding:65px 0;
+		text-align:center;
+		h2{
+			margin-bottom:4px;
+			span{
+				font-size:24px;
+				color:#000;
+				padding-bottom:4px;
+				border-bottom:2px solid $seColor;
+			}
+		}
+		.tabbar{
+			li{
+				float:left;
+				width:240px;
+				height:70px;
+				border:1px solid #5e5e5e;
+				border-right:none;
+				&:nth-last-of-type(1){
+					border-right:1px solid #5e5e5e;
+				}
+				a{
+					line-height:70px;
+					display:block;
+					color:#5e5e5e;
+					text-align:center;
+				}
+			}
+			li.active{
+				a{
+					background-color:#ff7f00;
+					color:$whiteColor;
+				}
+			}
+		}
+	}
+	.part_bd{
+		background-color:$whiteColor;
+		text-align:center;
+		ul{
+			li{
+				display:none;
+				text-align:center;
+				padding:85px 0 95px;
+				p{
+					line-height:28px;
+					font-size:14px;
+					color:#5e5e5e;
+				}
+			}
+		}
+	}
+	.plan{
+		text-align:center;
+		
+	}
+}

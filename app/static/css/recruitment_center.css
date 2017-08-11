@@ -1,0 +1,225 @@
+@charset "UTF-8";
+/*announcement*/
+/*分页共通样式*/
+#fixed_modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.5); }
+  #fixed_modal .recharge_tip {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -250px;
+    margin-top: -245px;
+    width: 580px;
+    z-index: 2000;
+    border: 1px solid #ff9c00;
+    background: #fff;
+    padding-bottom: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px; }
+    #fixed_modal .recharge_tip h3 {
+      width: 100%;
+      height: 50px;
+      text-align: center;
+      line-height: 45px;
+      font-size: 24px;
+      color: #fff;
+      background: #ff9c00;
+      border-radius: 8px 8px 0 0; }
+    #fixed_modal .recharge_tip p {
+      padding: 10px 15px;
+      font-size: 14px;
+      letter-spacing: 1px; }
+      #fixed_modal .recharge_tip p em {
+        font-style: normal;
+        color: #696969; }
+      #fixed_modal .recharge_tip p span {
+        color: #f43500;
+        font-size: 18px;
+        margin-left: 15px; }
+    #fixed_modal .recharge_tip p.title {
+      padding: 20px 15px; }
+    #fixed_modal .recharge_tip p.statement {
+      padding: 20px 15px; }
+    #fixed_modal .recharge_tip .btn_wrap {
+      /*width: */
+      padding: 0;
+      margin: 0 130px; }
+      #fixed_modal .recharge_tip .btn_wrap a {
+        padding: 8px 24px;
+        background: #ff9c00;
+        color: #fff;
+        -webkit-border-radius: 26px;
+        -moz-border-radius: 26px;
+        -o-border-radius: 26px;
+        border-radius: 26px; }
+        #fixed_modal .recharge_tip .btn_wrap a:hover {
+          background: #feae32; }
+      #fixed_modal .recharge_tip .btn_wrap .recharge_done {
+        float: left; }
+      #fixed_modal .recharge_tip .btn_wrap .recharge_error {
+        float: right; }
+
+.fn_69 {
+  color: #696969; }
+
+.fn_33 {
+  color: #333; }
+
+.fn_blue {
+  color: #299dff; }
+
+.pb60 {
+  padding-bottom: 60px; }
+
+.mt105 {
+  margin-top: 105px; }
+
+.last_child {
+  display: inline-block;
+  width: 100%;
+  height: 53px; }
+
+.fn_btn {
+  display: block;
+  width: 180px;
+  height: 30px;
+  line-height: 30px;
+  color: #fff !important;
+  background: #1874b7;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  margin: 10px auto 50px; }
+
+.content {
+  min-height: 790px; }
+
+.content_list {
+  background: #fff; }
+  .content_list .recruit_top {
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    color: #000;
+    font-size: 24px; }
+    .content_list .recruit_top p {
+      margin-top: -20px;
+      font-size: 14px; }
+  .content_list .recruit_wire {
+    width: 100px;
+    height: 2px;
+    background: orange;
+    margin: 0 auto;
+    margin-top: -20px; }
+  .content_list .six_banner {
+    margin: 0 auto;
+    margin-top: 30px;
+    background: url(../images/zp_six_bg.png) no-repeat -10px 0;
+    height: 418px;
+    position: relative; }
+    .content_list .six_banner .zp_job {
+      position: relative;
+      margin-left: 874px;
+      top: 22px;
+      width: 152px;
+      height: 147px;
+      background-image: url(../images/six_sum.png);
+      background-position-x: -1px;
+      background-position-y: -10px;
+      text-align: center;
+      line-height: 52px; }
+      .content_list .six_banner .zp_job p {
+        font-size: 16px;
+        color: #5e5e5e;
+        padding: 0 20px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+      .content_list .six_banner .zp_job span {
+        font-size: 16px;
+        color: #fff; }
+      .content_list .six_banner .zp_job img {
+        position: relative;
+        top: 6px;
+        margin-top: -121px;
+        margin-left: -1px;
+        display: none;
+        cursor: pointer; }
+    .content_list .six_banner .zp_job:hover img {
+      display: block; }
+  .content_list .contenter {
+    margin-top: 20px; }
+    .content_list .contenter .theme_title {
+      text-align: center; }
+    .content_list .contenter .theme_title p {
+      font-size: 12px;
+      color: #696969;
+      margin-top: 10px; }
+    .content_list .contenter .Job_Details {
+      background: #f7f7f7; }
+    .content_list .contenter .Job_duty {
+      width: 60px;
+      height: 24px;
+      border: 1px solid #696969;
+      text-align: center;
+      line-height: 24px;
+      margin: 0 auto;
+      font-size: 12px;
+      color: #696969;
+      margin-top: 20px; }
+    .content_list .contenter .substance {
+      text-align: center;
+      color: #696969;
+      font-size: 14px;
+      margin-top: 20px; }
+    .content_list .contenter .substance p {
+      margin-top: 10px; }
+    .content_list .contenter .Job_dutys {
+      margin-top: 130px; }
+    .content_list .contenter .substances {
+      color: #5e5e5e;
+      font-weight: 800;
+      font-size: 24px;
+      /*letter-spacing:5px;*/ }
+    .content_list .contenter .Job_dutys {
+      width: 60px;
+      height: 24px;
+      text-align: center;
+      line-height: 24px;
+      margin: 0 auto;
+      font-size: 12px;
+      color: #696969;
+      padding-top: 20px; }
+    .content_list .contenter .Job_description {
+      width: 850px;
+      display: none; }
+    .content_list .contenter .Job_description_title {
+      text-align: center;
+      background: #fff; }
+      .content_list .contenter .Job_description_title .job_p {
+        margin: 0 auto;
+        width: 120px;
+        border-bottom: 2px solid #ff7f00; }
+    .content_list .contenter .job_contenter {
+      border-top: 1px solid #aeaeae;
+      border-bottom: 1px solid #aeaeae;
+      margin-top: 40px;
+      padding-bottom: 35px;
+      margin-bottom: 50px; }
+      .content_list .contenter .job_contenter h3 {
+        font-weight: 800;
+        font-size: 18px;
+        margin-bottom: 15px;
+        margin-top: 50px; }
+      .content_list .contenter .job_contenter p {
+        font-size: 14px;
+        color: #5e5e5e; }

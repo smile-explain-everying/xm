@@ -1,0 +1,205 @@
+@charset "UTF-8";
+/*zh 2017 0411 v1.0*/
+/*错误提示共通样式*/
+.tip {
+  position: absolute;
+  /*line-height: 22px;*/
+  background-color: #fff;
+  border: 1px solid #ff9c00;
+  color: #ff9c00;
+  z-index: 100;
+  line-height: 20px;
+  text-align: center;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  opacity: 0;
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -o-transition: 0.8s;
+  transition: 0.8s;
+  padding: 10px; }
+
+.tip_show {
+  opacity: 1;
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -o-transition: 0.8s;
+  transition: 0.8s; }
+
+.tip:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 15px;
+  height: 10px;
+  background: url(../images/sprite.png) no-repeat;
+  background-position: -317px -21px;
+  left: 50%;
+  top: -10px;
+  margin-left: -7px; }
+
+.tip:after {
+  content: "";
+  display: block; }
+
+.error {
+  position: absolute; }
+  .error i {
+    background-position: -160px -137px;
+    width: 19px;
+    height: 18px;
+    margin-right: 5px; }
+
+.content {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column; }
+  .content .layout {
+    padding: 15px; }
+  .content .content_wrap {
+    height: 390px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 0 5px #e0d1b4; }
+    .content .content_wrap div {
+      float: left; }
+    .content .content_wrap .show_img {
+      width: 586px;
+      height: 390px; }
+      .content .content_wrap .show_img img {
+        width: 586px;
+        height: 390px; }
+    .content .content_wrap .register_box {
+      width: 290px;
+      height: auto;
+      margin: 0 42px 0 52px; }
+      .content .content_wrap .register_box .register_title {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        margin-bottom: 20px;
+        border: none; }
+        .content .content_wrap .register_box .register_title a {
+          float: left;
+          width: 50%;
+          height: auto;
+          font-size: 16px;
+          color: #2f2f2f;
+          text-align: center;
+          padding: 13px 0 10px 0; }
+        .content .content_wrap .register_box .register_title .active {
+          color: #ff9c00;
+          border-bottom: 2px solid #ff9c00; }
+      .content .content_wrap .register_box .register_check p {
+        width: 100%;
+        height: 25px;
+        color: #686868;
+        font-size: 14px;
+        border-bottom: 1px solid #999999;
+        overflow: hidden;
+        margin-bottom: 20px; }
+        .content .content_wrap .register_box .register_check p input {
+          position: relative;
+          width: 180px;
+          font-size: 14px;
+          outline: none;
+          border: none;
+          color: #363636;
+          padding-left: 20px; }
+      .content .content_wrap .register_box .register_check .user_phone {
+        overflow: hidden; }
+        .content .content_wrap .register_box .register_check .user_phone .right_ico {
+          float: right;
+          display: block;
+          width: 18px;
+          height: 18px;
+          background: url(../images/sprite.png) no-repeat;
+          background-position: -179px -137px; }
+      .content .content_wrap .register_box .register_check .login_code input {
+        width: 115px;
+        padding-left: 25px; }
+      .content .content_wrap .register_box .register_check .login_code img {
+        float: right;
+        width: 80px;
+        height: 21px;
+        cursor: pointer; }
+      .content .content_wrap .register_box .register_check .phone_code input {
+        width: 100px;
+        padding-left: 25px; }
+      .content .content_wrap .register_box .register_check .phone_code button {
+        float: right;
+        width: 80px;
+        height: 21px;
+        background: #fff;
+        border: 1px solid #ff9c00;
+        outline: none;
+        font-size: 12px;
+        color: #ff9c00;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -o-border-radius: 5px;
+        border-radius: 5px; }
+      .content .content_wrap .register_box .register_check .error {
+        /*position: absolute;*/
+        font-size: 12px;
+        color: #ea3b28;
+        margin-top: -18px; }
+        .content .content_wrap .register_box .register_check .error i {
+          width: 19px;
+          height: 19px;
+          background: url(../images/sprite.png) no-repeat;
+          background-position: -160px -136px; }
+      .content .content_wrap .register_box .register_check .msg {
+        font-size: 12px;
+        color: #ea3b28;
+        margin: -18px 0 0 15px; }
+      .content .content_wrap .register_box .register_check .check_ipt {
+        margin-bottom: 14px; }
+        .content .content_wrap .register_box .register_check .check_ipt label {
+          font-size: 12px;
+          color: #cfcfcf; }
+          .content .content_wrap .register_box .register_check .check_ipt label input {
+            vertical-align: middle;
+            margin-top: -2px; }
+          .content .content_wrap .register_box .register_check .check_ipt label a {
+            color: #9b9b9b; }
+      .content .content_wrap .register_box .register_check .register_p {
+        border: none;
+        margin: 0 auto;
+        height: 35px;
+        text-align: center; }
+        .content .content_wrap .register_box .register_check .register_p button {
+          width: 260px;
+          height: 35px;
+          line-height: 36px;
+          outline: none;
+          border: none;
+          font-size: 18px;
+          color: #fff;
+          text-align: center;
+          -webkit-border-radius: 35px;
+          -moz-border-radius: 35px;
+          -o-border-radius: 35px;
+          border-radius: 35px; }
+        .content .content_wrap .register_box .register_check .register_p .register_true {
+          cursor: pointer;
+          background: #ff9c00; }
+          .content .content_wrap .register_box .register_check .register_p .register_true:hover {
+            background: #feae32; }
+        .content .content_wrap .register_box .register_check .register_p .register_false {
+          cursor: not-allowed;
+          background: #cccccc; }
+      .content .content_wrap .register_box .register_check .links {
+        width: 260px;
+        height: 12px;
+        margin: 0 auto;
+        line-height: 12px;
+        font-size: 12px;
+        color: #aaaaaa;
+        text-align: center;
+        padding-top: 10px;
+        border: none; }
+        .content .content_wrap .register_box .register_check .links a {
+          color: #ea3b28; }

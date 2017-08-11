@@ -1,0 +1,279 @@
+@charset "UTF-8";
+/*首页index*/
+/*分页共通样式*/
+.banner {
+  position: relative;
+  height: 330px; }
+  .banner:hover .layout .next, .banner:hover .layout .prev {
+    display: block; }
+  .banner ul li {
+    width: 100%;
+    height: 330px;
+    position: absolute;
+    opacity: 1;
+    overflow: hidden; }
+    .banner ul li a {
+      width: 100%;
+      height: 100%;
+      display: block; }
+  .banner .layout {
+    position: relative;
+    height: 100%; }
+    .banner .layout .controls {
+      position: absolute;
+      bottom: 20px;
+      left: 400px;
+      height: 30px;
+      width: 200px;
+      line-height: 30px;
+      text-align: center;
+      z-index: 10; }
+      .banner .layout .controls i {
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        margin: 0 5px;
+        background: none;
+        background-color: #fff;
+        cursor: pointer;
+        border-radius: 50%;
+        -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+        -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+        -o-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5); }
+      .banner .layout .controls .now {
+        background-color: #ff9c00; }
+    .banner .layout .next, .banner .layout .prev {
+      position: absolute;
+      top: 50%;
+      margin-top: -29px;
+      width: 50px;
+      height: 50px;
+      z-index: 20;
+      display: none; }
+    .banner .layout .next {
+      right: -70px;
+      background: url(../images/sprite.png) no-repeat -50px -21px; }
+    .banner .layout .prev {
+      left: -70px;
+      background: url(../images/sprite.png) no-repeat 0 -21px; }
+    .banner .layout .banner_pop {
+      width: 200px;
+      height: 240px;
+      position: absolute;
+      right: -5px;
+      top: 45px;
+      text-align: center;
+      z-index: 99;
+      background-color: rgba(0, 0, 0, 0.4);
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -o-border-radius: 10px;
+      border-radius: 10px; }
+      .banner .layout .banner_pop .txt1 {
+        font-size: 12px;
+        color: #fff;
+        margin-top: 40px; }
+      .banner .layout .banner_pop .txt2 {
+        font-size: 40px;
+        color: #ff9c00;
+        margin: 34px 0 0 0; }
+        .banner .layout .banner_pop .txt2 span {
+          font-size: 16px; }
+      .banner .layout .banner_pop a {
+        width: 170px;
+        height: 30px;
+        line-height: 30px;
+        margin-top: 35px;
+        font-size: 14px;
+        color: #fff; }
+
+.banner .layout {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0px; }
+
+.disclaimer {
+  background: #fff;
+  font-size: 14px;
+  color: #5e5e5e;
+  padding: 25px 15px 20px; }
+  .disclaimer p {
+    padding-top: 15px; }
+  .disclaimer .fn_ti {
+    text-indent: 32px; }
+  .disclaimer .fn-we {
+    font-weight: 800; }
+  .disclaimer span {
+    display: block;
+    padding-top: 5px;
+    color: #000; }
+  .disclaimer .title {
+    font-size: 24px;
+    width: 100px;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ff9c00; }
+
+.agreement .title {
+  width: 150px; }
+
+.culture .banner_list {
+  height: 330px;
+  background: url(../images/culture.jpg);
+  background-position: center; }
+
+.culture li {
+  width: 100%;
+  height: 385px;
+  margin-top: 20px;
+  position: relative; }
+  .culture li .photo {
+    width: 352px;
+    height: 100%; }
+    .culture li .photo img {
+      width: 100%;
+      height: 100%; }
+  .culture li .position_r {
+    position: absolute;
+    right: 0;
+    top: 0; }
+  .culture li .position_l {
+    position: absolute;
+    left: 0;
+    top: 0; }
+  .culture li .container {
+    /*width: 646px;*/
+    height: 100%; }
+
+.banner li {
+  display: none; }
+
+.banner li.show {
+  display: block; }
+
+.development .banner_list {
+  height: 330px;
+  background: url(../images/development.jpg);
+  background-position: center; }
+
+.development .data {
+  width: 820px;
+  height: 15px;
+  background: #efe9e7;
+  margin: 100px auto; }
+  .development .data li {
+    float: left;
+    width: 34px;
+    height: 7px;
+    margin-top: 4px;
+    /*background: #ff9c00;*/
+    position: relative; }
+    .development .data li a {
+      display: inline-block;
+      width: 25px;
+      height: 7px;
+      position: absolute;
+      left: 0;
+      top: 0; }
+  .development .data .year i {
+    width: 19px;
+    height: 19px;
+    background: url(../images/de_icon.png);
+    position: absolute;
+    left: -10px;
+    top: -6px; }
+  .development .data .year i.data_year {
+    width: 48px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    top: -30px;
+    left: -20px; }
+  .development .data .year .one {
+    background: url(../images/2016.png); }
+  .development .data .year .two {
+    width: 73px;
+    height: 29px;
+    display: inline-block;
+    position: absolute;
+    top: -40px;
+    left: -40px;
+    background: url(../images/2017.png); }
+  .development .data .year .three {
+    background: url(../images/2018.png); }
+  .development .data .last_year {
+    width: 4px; }
+  .development .data .month .i {
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    left: -10px;
+    top: -9px; }
+  .development .data .month .active {
+    background: url(../images/active.png); }
+
+.development .banner {
+  background: #fff;
+  /*.prev{
+	    	width: 30px;
+	    	height: 58px;
+	    	display: inline-block;
+	    	background: url(../images/prev.png);
+	    	position: absolute;
+	    	left: 0;
+	    	top: 141px;
+	    }
+	      .next{
+	    	width: 30px;
+	    	height: 58px;
+	    	display: inline-block;
+	    	background: url(../images/prev.png);
+	    	position: absolute;
+	    	right: 0;
+	    	top: 141px;
+	    	transform:rotate(180deg);
+	    }*/ }
+  .development .banner .layout {
+    height: 160px;
+    padding: 90px 0; }
+    .development .banner .layout .prev {
+      width: 30px;
+      height: 58px;
+      background: url(../images/prev.png);
+      left: 0; }
+    .development .banner .layout .next {
+      width: 30px;
+      height: 58px;
+      right: 0;
+      background: url(../images/prev.png);
+      transform: rotate(180deg); }
+  .development .banner ul {
+    width: 860px;
+    margin: 0 auto; }
+  .development .banner li {
+    height: 160px;
+    margin-top: 85px;
+    overflow: visible; }
+  .development .banner .data_year {
+    width: 400px;
+    height: 100%;
+    font-size: 100px;
+    color: #ff9c00;
+    text-align: center;
+    position: relative;
+    float: left; }
+    .development .banner .data_year .year {
+      position: absolute;
+      left: 70px;
+      top: -45px; }
+    .development .banner .data_year .month {
+      position: absolute;
+      left: 70px;
+      bottom: -20px; }
+  .development .banner .container {
+    width: 360px;
+    height: 100%;
+    font-size: 16px;
+    color: #efe9e7;
+    float: left; }

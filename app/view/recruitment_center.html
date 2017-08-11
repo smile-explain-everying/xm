@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<meta charset="UTF-8">
+	<title>认证中心</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content=" IE=edge,chrome=1">
+	<meta name="renderer" content="webkit" />
+	<meta name="viewport" content="width=1000,initial-scale=1,maximum-scale=1,user-scalable=yes">
+
+	<link rel="Shortcut Icon" href="../static/favicon.ico">
+	<!-- Standard iPad -->  
+	<link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="../static/touch-icon-ipad-144.png" />  
+	<!-- Retina iPad -->  
+	<link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="../static/touch-icon-ipad-144.png" /> 
+	<link rel="stylesheet" href="../static/css/main.css">
+    <link rel="stylesheet" href="../static/css/recruitment_center.css">
+	<!--[if lt IE 9]>
+	<script src="../static/js/html5.js"></script>
+	<![endif]-->
+</head>  
+<body>   
+	<!-- 头部 -->   
+	<header class="header"> 
+		<!-- topbar -->
+		<div class="topbar">
+			<div class="layout">
+				<div class="bar_left">
+					<ul>
+						<li><span>小满金服首页</span></li>
+						<li style="margin-left: 40px;"><span>客服电话：400-844-5558</span></li>
+						<li class="WeChat">
+							<i></i>
+							<div>
+								<span><em></em></span>
+								<img src="../static/images/WeChat.jpg">
+								<p>扫一扫加微信</p>
+							</div>
+						</li>
+						<li class="weibo">
+							<i></i>
+							<div>
+								<span><em></em></span>
+								<img src="../static/images/weibo.png">
+								<p>扫一扫加微博</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="bar_right" style="display: none;">
+					<a href="">登录</a>&nbsp;&nbsp;|&nbsp;
+					<a href="">注册</a>
+				</div>
+				<!-- 登陆后显示 -->
+				<div class="bar_right" >
+					<span>欢迎您</span><a href="">boss</a> |
+					<a href="javascript:;">退出</a>
+ 
+				</div>
+			</div>
+		</div>
+		<!-- topbar-end -->
+		<!-- nav -->
+		<nav class="nav">
+			<div class="layout">
+				<div class="nav_left">
+					<!-- logo size 290px*64px -->
+					<a href="" class="logo">
+						<img src="../static/images/lclogo.png" alt="">
+					</a>
+				</div>
+				<ul class="nav_right">
+					<li><a href="" class="active">首页</a></li>
+					<li class="myinvest">
+						<a href="">我要投资</a>
+						<ul>
+							<li><a href="">投资专区</a></li>
+							<li><a href="">转让专区</a></li>
+						</ul>
+					</li>
+					<li><a href="">我要借款</a></li>
+					<li><a href="">安全保障</a></li>
+					<li><a href="">下载APP</a></li>
+					<li class="myaccount">
+						<a href="myCenter.html">我的账户</a>
+						<!-- <ul>
+							<li><a href="">1111</a></li>
+							<li><a href="">222</a></li>
+							<li><a href="">3333</a></li>
+							<li><a href="">4444</a></li>
+							<li><a href="">55555</a></li>
+						</ul> -->
+					</li>
+
+				</ul>
+			</div>
+		</nav>
+		<!-- nav-end -->
+	</header>
+	<!-- 二级菜单 -->
+	<div class="Shead">
+        <div class="box_s">
+            <div class="nav_block">
+                <ul class="nav_list layout">
+                    <li class="nav_item active">
+                        <a href="javascript:;">资产概况</a> 
+                    </li>
+                    <li class="nav_item"><a href="javascript:;">充值提现</a></li>
+                    <li class="nav_item"><a href="javascript:;">投资管理</a></li>
+                    <li class="nav_item"><a href="javascript:;">账户管理</a></li>
+                    <li class="nav_item"><a href="javascript:;">系统消息</a></li>
+                    <li class="nav_item"><a href="javascript:;">认证中心</a></li>
+                    <li class="nav_item fn-fr"><a href="">资产总览</a></li>
+                </ul>
+            </div>
+            <div class="nav_none">
+                <ul class="nav_none_list"></ul> <!-- 这里是 资产概况 -->
+                <ul class="nav_list2 nav_none_list layout" style="display:none">
+                    <li class="nav_item" style="width:110px;padding-left:15px;">
+                        <a href="">充值</a>
+                        <i class="triangle"></i>
+                    </li>
+                    <li class="nav_item" style="width:110px;padding-left:15px;">
+                        <a href="">提现</a>
+                        <i class="triangle"></i>
+                    </li>
+                </ul>
+                <ul class="nav_list2 nav_none_list layout" style="display:none;">
+                    <li class="nav_item">
+                        <a href="">交易记录</a>
+                        <i class="triangle"></i>
+                    </li>
+                    <li class="nav_item"><a href="">投资记录</a>
+                        <i class="triangle"></i>
+                    </li>
+                    <li class="nav_item"><a href="">债券转让</a>
+                        <i class="triangle"></i>
+                    </li>
+                    <li class="nav_item"><a href="">现金券</a>
+                        <i class="triangle"></i>
+                    </li>
+                </ul>
+                <ul class="nav_list2 layout nav_none_list" style="display:none">
+                    <li class="nav_item">
+                        <a href="">安全中心</a>
+                        <i class="triangle"></i>
+                    </li>
+                    <li class="nav_item "><a href="">个人资料</a>
+                        <i class="triangle"></i>
+                    </li>
+                    <li class="nav_item"><a href="">地址管理</a>
+                        <i class="triangle"></i>
+                    </li>
+                </ul>
+                <ul class="nav_none_list"></ul> <!-- 这里是 系统消息 -->
+                <ul class="nav_none_list"></ul> <!-- 这里是 认证中心 -->
+            </div>  
+        </div>  
+	</div>
+	<!-- 二级菜单结束 -->
+	<!-- 头部结束 -->
+	<!-- 内容 -->
+	<div class="content">
+       	<div><img src="../static/images/recruitment_nav.jpg" style="width: 100%;"></div>
+        <div class="content_list  mt40">
+           	<div class="recruit_top">
+				招聘中心
+				<div class="recruit_wire"></div>
+				<p>RECRUITMENT CENTER</p>
+			</div>
+			
+			<div class="six_banner">
+				<div class="zp_job zp_jobs">
+					<span>04</span>
+					<p>客服主管/经理</p>
+					<img src="../static/images/See_details.png" alt="" class="see_job">
+				</div>
+				
+				<div class="zp_job zp_jobs" style="margin-top: -147px;margin-left: 1016px;">
+					<span>05</span>
+					<p>客服专员</p>
+					<img src="../static/images/See_details.png" alt="" class="see_job">
+				</div>
+				
+				<div class="zp_job zp_jobs" style="margin-top:-29px ;margin-left:800px;">
+					<span>01</span>
+					<p>平面设计师</p>
+					<img src="../static/images/See_details.png" alt="" class="see_job">
+				</div>
+				
+				<div class="zp_job zp_jobs" style="margin-top:-147px;margin-left: 944px;">
+					<span>02</span>
+					<p>文案</p>
+					<img src="../static/images/See_details.png" alt="" class="see_job">
+				</div>
+				
+				<div class="zp_job zp_jobs" style="margin-top:-28px;margin-left: 874px;">
+					<span>03</span>
+					<p>产品助理/专员</p>
+					<img src="../static/images/See_details.png" alt="" class="see_job">
+				</div>
+				<div class="zp_job zp_jobs" style="margin-top:-264px;margin-left: 1088px;">
+					<span>06</span>
+					<p>前端开发</p>
+					<img src="../static/images/See_details.png" alt="" class="see_job">
+				</div>
+				<div class="zp_job zp_jobs" style="margin-top:-28px;margin-left: 1016px;">
+					<span>07</span>
+					<p>前端开发</p>
+					<img src="../static/images/See_details.png" alt="" class="see_job">
+				</div>
+				<div class="zp_job zp_jobs" style="margin-top:-385px;margin-left: 728px;">
+					<span>08</span>
+					<p>前端开发</p>
+					<img src="../static/images/See_details.png" alt="" class="see_job">
+				</div>
+				<div class="zp_job zp_jobs" style="margin-top:-28px;margin-left: 659px;">
+					<span>09</span>
+					<p>前端开发</p>
+					<img src="../static/images/See_details.png" alt="" class="see_job">
+				</div>
+				<div class="zp_job zp_jobs" style="margin-top:-28px;margin-left: 729px;">
+					<span>10</span>
+					<p>前端开发</p>
+					<img src="../static/images/See_details.png" alt="" class="see_job">
+				</div>
+				<div class="zp_job zp_jobs" style="margin-top:-385px;margin-left: 1160px;">
+					<span>11</span>
+					<p>前端开发</p>
+					<img src="../static/images/See_details.png" alt="" class="see_job">
+				</div>
+				<div class="zp_job zp_jobs" style="margin-top:90px;margin-left: 1159px;">
+					<span>12</span>
+					<p>前端开发</p>
+					<img src="../static/images/See_details.png" alt="" class="see_job">
+				</div>
+				<div class="zp_job zp_jobs" style="margin-top:-385px;margin-left: 587px;">
+					<span>13</span>
+					<p>前端开发</p>
+					<img src="../static/images/See_details.png" alt="" class="see_job">
+				</div>
+				<div class="zp_job zp_jobs" style="margin-top:93px;margin-left: 587px;">
+					<span>14</span>
+					<p>前端开发</p>
+					<img src="../static/images/See_details.png" alt="" class="see_job">
+				</div>
+			</div>
+			
+			<div class="contenter">
+				<div style="text-align: center;" class="layout zc_center"><img src="../static/images/zc_center.jpg"></div>
+				<div class="layout Job_description">
+					<div class="Job_description_title">
+						<p style="font-size: 24px; width: 160px;" class="job_p">客服主管/经理</p>
+						<p style="font-size: 14px;">岗位要求</p>
+					</div>
+					
+					<div class="job_contenter">
+						<div>
+							<h3>岗位职责：</h3>
+							<p>1、制定客户服务规范和制度，设计并优化客户服务流程；</p>
+							<p>2、承担客户数据录用及管理工作；</p>
+							<p>3、负责及时、妥善处理公司重大投诉；</p>
+							<p>4、执行客服服务质量检查及监督整改；</p>
+							<p>5、负责客服人员的岗位培训；</p>
+							<p>6、制定及执行客服人员的绩效考核。</p>
+						</div>
+						
+						<div>
+							<h3>任职要求：</h3>
+							<p>1、2年以上同岗位工作经验，1年以上带队经验；</p>
+							<p>2、普通话标准，声音甜美；</p>
+							<p>3、精通客户服务体系管理流程的制定；</p>
+							<p>4、具有高度的责任心和客户服务意识，亲和力强，有耐心；</p>
+							<p>5、具有良好的协调及沟通能力，较强的团队合作意识。</p>					
+						</div>
+						
+						<div>
+							<h3>薪资待遇：</h3>
+							<p>职位月薪：4000-7000元   五险一金 </p>
+						</div>
+					</div>
+				</div>			
+				
+				<div class="layout Job_description">
+					<div class="Job_description_title">
+						<p style="font-size: 24px; width: 100px;" class="job_p">客服专员</p>
+						<p style="font-size: 14px;">岗位要求</p>
+					</div>
+					
+					<div class="job_contenter">
+						<div>
+							<h3>岗位职责：</h3>
+							<p>1、制定客户服务规范和制度，设计并优化客户服务流程；</p>
+							<p>2、承担客户数据录用及管理工作；</p>
+							<p>3、负责及时、妥善处理公司重大投诉；</p>
+							<p>4、执行客服服务质量检查及监督整改；</p>
+							<p>5、负责客服人员的岗位培训；</p>
+							<p>6、制定及执行客服人员的绩效考核。</p>
+						</div>
+						
+						<div>
+							<h3>任职要求：</h3>
+							<p>1、勤奋敬业、责任心强，思路清晰，普通话标准，口齿伶俐，懂得客户心理，语言表达能力强，擅于沟通；</p>
+							<p>2、性格好，有耐心及责任心，有良好的服务意识及团队合作精神；</p>
+							<p>3、熟练使用常规的办公软件，如office等；</p>
+							<p>4、有金融行业客服或呼叫中心相关经验优先；</p>
+							<p>5、较好的执行能力和协调能力。</p>					
+						</div>
+						
+						<div>
+							<h3>薪资待遇：</h3>
+							<p>职位月薪：3000-5000元 </p>
+						</div>
+					</div>
+				</div>		
+				
+				<div class="layout Job_description">
+					<div class="Job_description_title">
+						<p style="font-size: 24px;" class="job_p">平面设计师</p>
+						<p style="font-size: 14px;">岗位要求</p>
+					</div>
+					<div class="job_contenter">
+						<div>
+							<h3>岗位职责：</h3>
+							<p>1、负责公司平面设计项目及网络平台前台的画面输出（品牌形象设计、VI设计、网络平台包装、Banner页面等）；</p>
+							<p>2、能够胜任多种风格的UI界面设计，同时具备成熟的设计理念和思路；</p>
+							<p>3、可根据需求准确完成UI交互和icon等设计；</p>
+						</div>
+						
+						<div>
+							<h3>任职要求：</h3>
+							<p>1、本科以上学历，平面相关专业；</p>
+							<p>2、具有扎实的美术功底、良好的创意思维和理解能力，对视觉设计、色彩有敏锐的观察力及分析能力，对时尚流行敏感、有个人风格；</p>
+							<p>3.具有一定的平面设计经验（餐厅装饰陈列、样本设计、包装设计以及印刷相关知识），对产品摄影知识有所了解；</p>
+							<p>4、熟练使用 PS、AI等设计工具，熟悉印刷流程和后期制作。</p>
+							<p>5、能够独立完成设计项目，有3年以上相关工作经验。</p>
+							<p>6、请附上作品及作品链接</p>
+						</div>
+						
+						<div>
+							<h3>薪资待遇：</h3>
+							<p>职位月薪：4000-6000元   五险一金 </p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="layout Job_description">
+					<div class="Job_description_title">
+						<p style="font-size: 24px; width: 60px;" class="job_p">文案</p>
+						<p style="font-size: 14px;">岗位要求</p>
+					</div>
+					
+					<div class="job_contenter">
+						<div>
+							<h3>岗位职责：</h3>
+							<p>1、负责网站的日常管理，相关栏目/频道的信息采编、资讯更新等工作；</p>
+							<p>2、负责软文、DM单、海报、展架、slogan等文案撰写；</p>
+							<p>3、负责公司各类宣传策划方案的设计和撰写；</p>
+							<p>4、负责项目资料中的文案、软性宣传文章,具有互联网创意思维者优先。</p>
+						</div>
+						
+						<div>
+							<h3>任职要求：</h3>
+							<p>1、新闻学、广告学、传播学、汉语言文学等相关专业，本科及以上学历；</p>
+							<p>2、有金融行业媒体编辑经验者优先；</p>
+							<p>3、良好的文字功底，较强的网站专题策划和信息采编能力；</p>
+							<p>4、同岗位经验1年以上。</p>					
+						</div>
+						
+						<div>
+							<h3>薪资待遇：</h3>
+							<p>职位月薪：4000-6000元   五险一金 </p>
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="layout Job_description">
+					<div class="Job_description_title">
+						<p style="font-size: 24px; width: 160px;" class="job_p">产品助理/专员</p>
+						<p style="font-size: 14px;">岗位要求</p>
+					</div>
+					
+					<div class="job_contenter">
+						<div>
+							<h3>岗位职责：</h3>
+							<p>1、负责收集产品需求，根据指导完成产品规范，并对产品进行全面设计；</p>
+							<p>2、负责产品持续升级，不断提升用户体验和满意度；</p>
+							<p>3、对行业及竞争产品的分析，跟踪最新发展趋势；</p>
+							<p>4、制作原型图、流程图、编写Word文档，与设计和开发团队沟通，准确传达需求。</p>
+						</div>
+						
+						<div>
+							<h3>任职要求：</h3>
+							<p>1、半年以上产品相关工作经验，熟悉基本的产品研发流程及方法；</p>
+							<p>2、熟悉产品相关的软件使用；</p>
+							<p>3、人品端正，踏实肯干，有较强的逻辑思维能力及沟通能力；</p>
+							<p>4、热爱移动互联网产品，对新鲜事物敏感，手机APP和智能机深度使用者优先。</p>					
+						</div>
+						
+						<div>
+							<h3>薪资待遇：</h3>
+							<p>职位月薪：4000-6000元   五险一金 </p>
+						</div>
+					</div>
+				</div>
+				
+				
+				
+				
+				
+				<div class="Job_Details">
+					<div class="Job_dutys">
+						
+					</div>
+					
+					<div class="substance">
+						<p>我们核心团队是一群拥有相当丰富互联网及金融经验的行业精英,我们坚信,与顶尖的人才携手共进才是真正的成功之巅,是企业不可复制的竞争优势。</p>
+						<p>我们愿意尽最大努力为相信我们的英才提供有竞争力的薪酬及广阔的舞台</p>
+						<p>我们是一群快乐,热情的年轻人,我们渴望和优秀的你在一起,来小满,遇见更好的自己</p>
+					</div>
+				</div>
+			
+			
+				<div class="Job_Details">
+					<div class="Job_dutys">
+						<img src="../static/images/six_log.png" alt="" />
+					</div>
+					<div class="substance substances">
+						<p >简历请投递至 :888888888@QQ.COM</p>
+						<p >有意向者可直接致电人事部 , 联系电话 :18888888888</p>	
+						<p style="margin-top: 80px;"><img src="../static/images/six_footer.jpg" alt="" /></p>		
+					</div>
+				</div>
+				
+			</div>
+			<img src="../static/images/zp_footer_photo.jpg" style="width: 100%;margin-top: 15px;display: block;margin-bottom: 1px;">
+        </div>
+    </div>
+	<!-- 内容结束 -->
+	<!-- 页脚 -->
+	<div class="footer ">
+		<div class="layout footer_link clearfix">
+			<ul class="footer_col_1">
+				<li>兑换指南</li>
+				<li><a href="">兑换流程</a></li>
+				<li><a href="">常见问题</a></li>
+				<li><a href="">配送服务查询</a></li>
+				<li><a href="">配送费标准</a></li>
+			</ul>
+			<ul class="footer_col_2">
+				<li>小满金服</li>
+				<li><a href="">关于我们</a></li>
+				<li><a href="">公司简介</a></li>
+			</ul>
+			<ul class="footer_col_3">
+				<li>联系我们</li>
+				<li>市场合作 <br/><a href="mailto:Marketing@xiaomanjf.com">Marketing@xiaomanjf.com</a></li>
+				<li>招商合作<br/><a href="mailto:zhaoshang@xiaomanjf.com">zhaoshang@xiaomanjf.com</a></li>
+			</ul>
+			<ul class="footer_col_4">
+				<li>客服热线</li>
+				<li>400-844-5558 (9:00-18:00)</li>
+			</ul>
+			<ul class="footer_col_5">
+				<li>
+					<img src="../static/images/WeChat.jpg" alt="">
+					<p>扫码关注小满金服服务号</p>
+				</li>
+			</ul>
+		</div>	
+		<div class="layout footer_bar">
+			<p>Copyright &copy; 2016-2017小满金服(大连)有限公司  All Rights Reserved 辽ICP备16004265号-2</p>
+			<p>地址：辽宁省大连市中山区延安路保嘉大厦15楼1516室    电话：400-844-5558</p>
+		</div> 
+	</div>
+	<!-- 页脚结束 -->
+	<!-- 右侧导航 -->
+	<div class="nav_sidebar_right">
+		<ul>	
+			<!-- 签到成功添加CLASS ckeckinon -->
+			<li>
+				<a href="" class="nockeckin">
+					<div class="nologin">
+						<i class="arrow_pic"></i>
+						<div class="check_tit">请登录</div>
+					</div>	
+					<div class="login">
+						<i class="arrow_pic"></i>
+						<div class="check_tit">已经签,获得300积分</div>
+					</div>
+				</a>
+			</li>
+			<li><a href="" class="xiaoman">
+				<img src="../static/images/WeChat.jpg" alt="">
+			</a></li>
+			<li><a href="" class="focusus"></a></li>
+			<li><a href="" class="contact"></a></li>
+			<li><a href="" class="backtop"></a></li>
+		</ul>
+	</div>
+	<!-- 右侧导航 end-->
+<script src="../static/js/jquery.min.js"></script>	
+<script src="../static/js/common.js"></script>
+</body>
+</html>
+<script>
+	//控制tab切换
+	$('.see_job').each(function(i){ 
+		$('.see_job').eq(i).on('click',function(){
+			$('.zc_center').css("display","none");
+			$('.Job_description').css("display","none").eq(i).css("display","block");
+		})
+	});
+	
+
+	//控制比例缩进
+	window.onload=function(){
+		//一开始就让元素居中
+			var LEft=1920-$(window).width();
+			var bili=Math.ceil($('.recruit_top').width()/1920);
+			$(".six_banner").css("background-position-x",-LEft*bili/2);
+			$(".zp_jobs").css("left",-(LEft-20)*bili/2);
+		window.onresize=function(){
+			//浏览器变动时 始终居中
+			var LEft=1920-$(window).width();
+			var bili=Math.ceil($('.recruit_top').width()/1920);
+			$(".six_banner").css("background-position-x",-LEft*bili/2);
+			$(".zp_jobs").css("left",-(LEft-20)*bili/2);
+		}
+	}
+
+//	window.onload=function(){		
+//			var Left=1920/2-$(window).width()/2;	
+//			var bili=$('.recruit_top').width()/1920;
+//			$(".six_banner").css("background-position-x",-Left*bili);
+//			$(".zp_jobs").css("left",-(Left-11)*bili);
+//			if($(window).width()<1600 && $(window).width()>1300){
+//				alert('a');
+//				$(".zp_jobs").css("left",(-(Left-11)*bili)+1);
+//			}
+//			if($(window).width()<1300 && $(window).width()>1000){
+//				$(".zp_jobs").css("left",(-(Left-11)*bili)+2);
+//			}
+//		
+//
+//	}
+</script>
+
+
+
+

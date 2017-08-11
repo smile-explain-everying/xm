@@ -1,0 +1,210 @@
+@charset "utf-8";
+/*announcement*/
+@import  "helpers/_mixins.scss";                  //常用变量定义
+@import  "components/_popup.scss";                //错误提示
+
+$fn_blue:#1874b7;
+.fn_69{
+	color: #696969;
+}
+.fn_33{
+	color: #333; 
+}
+.fn_blue{
+	color: #299dff; 
+}
+.pb60{ 
+	padding-bottom:60px;
+}
+.mt105{
+	margin-top: 105px;
+}
+.last_child{
+	display: inline-block; 
+	width: 100%;
+	height: 53px;
+}
+.fn_btn{
+	display: block;
+	width: 180px;
+	height: 30px;
+	line-height: 30px;
+	color: #fff!important;
+	background: $fn_blue;
+	@include border-radius(5px);
+	margin:10px auto 50px;
+}
+.content{
+	min-height: 790px;
+}
+.content_list{
+	background: #fff;
+	.empty{
+		width: 100%;
+		height: 70px;
+	}
+	.tips{
+		padding:10px 0 40px;
+		p{
+			padding-top: 10px;
+			font-size: 12px;
+			color: #999;
+			span{
+				color: #333;
+			}
+		}
+		.fn_orange{
+			color:$seColor;
+			font-size: 14px;
+		}
+	}
+	.container{
+		width: 100%;
+		height: 340px;
+		padding-bottom: 20px;
+		.icons{
+			width:30%;
+			padding-right: 80px;
+			height: 100%;
+			.icon{
+				width: 100%;
+				/*height:170px ;*/
+				div{
+					text-align: center;
+					width: 100px;
+					float: right;
+					i{  
+						width: 93px;
+						background-image: url(../images/icon.png);
+						padding-bottom: 10px;	
+					}
+					span{
+						font-size: 16px;
+					}
+				}
+				.card{
+					height: 95px;
+					padding-top: 110px;
+					i{
+						height: 65px;
+						background-position: 0 0;	
+					}
+				}
+				.password{
+					height: 120px;
+					padding-top: 10px;
+					i{
+						height: 88px;
+						margin-left:18px; 
+						background-position: 0 -78px;
+					}
+				}
+			}
+		}
+		.office{
+			width: 55%;
+			/*height: 100%;*/
+			border-left:1px solid #e6e6e6;
+			.one{
+				padding: 40px 0px 0 80px;
+				box-sizing:border-box;
+				.information{
+					padding-top: 50px;
+					li{
+						height: 40px;
+						line-height: 40px;
+						.fn_type{
+							display: inline-block;
+							width: 20%;
+						}
+						input{
+							width: 180px;
+							height: 30px;
+							border: 1px solid #ccc;
+						}
+						.error{
+							display: inline-block;
+							color: #f43500; 
+							i{
+								width: 19px;
+								height: 19px;
+                               background-position: -160px -137px;
+                               background-repeat: no-repeat;
+							}
+						}
+					}
+				}
+				div{
+					padding-top: 40px;
+					text-align: left;
+					span{
+						display: block;
+					}
+					a{
+                       margin: 0;
+                       margin-top: 10px;
+					}
+				}
+			}
+			.two{
+				box-sizing:border-box;
+				padding:0 50px 0 80px;
+				p{
+					padding-bottom: 10px;
+					span{
+						padding-right: 10px;
+					}
+					a{
+						padding: 5px 10px;
+						background: $fn_blue;
+						@include border-radius(5px);
+						color: #fff;
+					}
+				}
+				.information{
+					padding-top: 20px;
+					color: #696969;
+					.tit{
+						padding-top: 0;
+					}
+					li{
+						padding-top: 10px;
+						i{
+							width: 10px;
+							height: 10px;
+							background: $fn_blue;
+							@include border-radius(50%);
+							margin:0 20px;
+						}
+					}
+				}
+
+			}
+			.three{
+				padding-top: 0;
+				.information{
+					padding-top: 30px;
+				}
+			}
+		}
+		.fn_one{
+			width: 60%;
+		}
+	}
+	.btn{
+		width: 100%;
+		padding:60px 0; 
+		text-align: center;
+	}
+	.process{
+		width:670px;
+		height: 270px;
+		margin :80px auto 60px;
+		.imgs{
+			width: 670px;
+			height: 250px;
+			background: url(../images/flow_chart.png);
+			background-size: 100% 100%;
+		}
+	}
+}

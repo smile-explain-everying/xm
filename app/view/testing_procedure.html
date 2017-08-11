@@ -1,0 +1,417 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>小满理财</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="renderer" content="webkit" />
+	<meta name="viewport" content="width=1000,initial-scale=1,maximum-scale=1,user-scalable=yes">
+
+	<link rel="Shortcut Icon" href="../static/favicon.ico">
+	<!-- Standard iPad -->  
+	<link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="../static/touch-icon-ipad-144.png" />  
+	<!-- Retina iPad -->  
+	<link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="../static/touch-icon-ipad-144.png" /> 
+	<link rel="stylesheet" href="../static/css/main.css">
+	<link rel="stylesheet" href="../static/css/testing_procedure.css">
+	<!--[if lt IE 9]>
+	<script src="../static/js/html5.js"></script>
+	<![endif]-->
+</head>  
+<body>
+	<!-- 头部 -->
+	<header class="header"> 
+		<!-- topbar -->
+		<div class="topbar">
+			<div class="layout">
+				<div class="bar_left">
+					<ul>
+						<li><span>小满金服首页</span></li>
+						<li style="margin-left: 40px;"><span>客服电话：400-844-5558</span></li>
+						<li class="WeChat">
+							<i></i>
+							<div>
+								<span><em></em></span>
+								<img src="../static/images/WeChat.jpg">
+								<p>扫一扫加微信</p>
+							</div>
+						</li>
+						<li class="weibo">
+							<i></i>
+							<div>
+								<span><em></em></span>
+								<img src="../static/images/weibo.png">
+								<p>扫一扫加微博</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="bar_right" style="display: none;">
+					<a href="">登录</a>&nbsp;&nbsp;|&nbsp;
+					<a href="">注册</a>
+				</div>
+				<!-- 登陆后显示 -->
+				<div class="bar_right" >
+					<span>欢迎您</span><a href="">boss</a> |
+					<a href="javascript:;">退出</a>
+ 
+				</div>
+			</div>
+		</div>
+		<!-- topbar-end -->
+		<!-- nav -->
+		<nav class="nav">
+			<div class="layout">
+				<div class="nav_left">
+					<!-- logo size 290px*64px -->
+					<a href="" class="logo">
+						<img src="../static/images/lclogo.png" alt="">
+					</a>
+				</div>
+				<ul class="nav_right">
+					<li><a href="" class="active">首页</a></li>
+					<li class="myinvest">
+						<a href="">我要投资</a>
+						<ul>
+							<li><a href="">投资专区</a></li>
+							<li><a href="">转让专区</a></li>
+						</ul>
+					</li>
+					<li><a href="">我要借款</a></li>
+					<li><a href="">安全保障</a></li>
+					<li><a href="">下载APP</a></li>
+					<li class="myaccount">
+						<a href="myCenter.html">我的账户</a>
+						<!-- <ul>
+							<li><a href="">1111</a></li>
+							<li><a href="">222</a></li>
+							<li><a href="">3333</a></li>
+							<li><a href="">4444</a></li>
+							<li><a href="">55555</a></li>
+						</ul> -->
+					</li>
+
+				</ul>
+			</div>
+		</nav>
+		<!-- nav-end -->
+	</header>
+	<!-- 头部结束 -->
+	<!-- 内容 -->
+	<div class="content mt40">
+		<div class="paySuccess">
+				<div class="layout">
+					<form class="interlocution " >
+						<div class="interlocution_go " id="interlocution_go">
+							<p>1.  请问您的年龄处于 : </p>
+							<div action="" method="get" class="particulars">
+								<label><input name="list" type="radio" value="" class="lists"><span>A. 30岁以下</span> </label>
+								<label><input name="list" type="radio" value="" class="lists"><span>B. 31-40岁</span>  </label>
+								<label><input name="list" type="radio" value="" class="lists"><span>C. 41-50岁</span>  </label>
+								<label><input name="list" type="radio" value="" class="lists"><span>D. 51-60岁</span> </label>
+								<label><input name="list" type="radio" value="" class="lists"><span>E. 60岁以上</span>  </label>
+							</div>
+						</div>
+						
+						<div class="interlocution_go " id="interlocution_go">
+							<p>2.　您家庭预计进行证券投资的资金占家庭现有总资产(不含自住、自用房产及汽车等固定资产)的比例是 : </p>
+							<div action="" method="get" class="particulars">
+								<label><input name="list1" type="radio" value="" class="lists"><span>A. 70%以上</span> </label>
+								<label><input name="list1" type="radio" value="" class="lists"><span>B. 50%-70%</span>  </label>
+								<label><input name="list1" type="radio" value="" class="lists"><span>C. 30%-50%</span>  </label>
+								<label><input name="list1" type="radio" value="" class="lists"><span>D. 10%-30%</span> </label>
+								<label><input name="list1" type="radio" value="" class="lists"><span>E. 10%以下</span>  </label>
+							</div>
+						</div>
+						
+						<div class="interlocution_go  interlocution_gos" id="interlocution_go">
+							<p>3.　进行一项重大投资后，您通常会觉得 : </p>
+							<div action="" method="get" class="particulars particularss">
+								<label><input name="list2" type="radio" value="" class="lists"><span>A. 很高兴,对自己的决定很有信心</span> </label>
+								<label><input name="list2" type="radio" value="" class="lists"><span>B. 轻松,基本保持乐观状态</span>  </label>
+								<label><input name="list2" type="radio" value="" class="lists"><span>C. 基本没什么影响</span>  </label>
+								<label><input name="list2" type="radio" value="" class="lists"><span>D. 比较担心投资结果</span> </label>
+								<label><input name="list2" type="radio" value="" class="lists"><span>E. 非常担心投资结果</span>  </label>
+							</div>
+						</div>
+						
+						<div class="interlocution_go " id="interlocution_go">
+							<p>4.　如果您需要把大量现金整天携带在身的话，您是否会感到 : </p>
+							<div action="" method="get" class="particulars">
+								<label><input name="list3" type="radio" value="" class="lists"><span>A. 非常焦虑</span> </label>
+								<label><input name="list3" type="radio" value="" class="lists"><span>B. 有点焦虑</span>  </label>
+								<label><input name="list3" type="radio" value="" class="lists"><span>C. 完全不会焦虑</span>  </label>
+							</div>
+						</div>
+						
+						<div class="interlocution_go " id="interlocution_go">
+							<p>5. 　当您独自到外地游玩，遇到三岔路口，您会选择 : </p>
+							<div action="" method="get" class="particulars">
+								<label><input name="list4" type="radio" value="" class="lists"><span>A. 仔细研究地图和路标</span> </label>
+								<label><input name="list4" type="radio" value="" class="lists"><span>B. 找别人问路</span>  </label>
+								<label><input name="list4" type="radio" value="" class="lists"><span>C. 大致判断一下方向</span>  </label>
+								<label><input name="list4" type="radio" value="" class="lists"><span>D. 也许会有掷骰子的方式决定</span> </label>
+								
+							</div>
+						</div>
+						
+						<div class="interlocution_go " id="interlocution_go">
+							<p>6.　假设有两种不同的投资：投资A预期获得5%的收益，有可能承担非常小的损失；投资B预期获得20%的收益，但有可能面临25%甚至<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;更高的亏损。您将您的投资资产分配为 : </p>
+							<div action="" method="get" class="particulars">
+								<label><input name="list5" type="radio" value="" class="lists"><span>A. 全部投资于A</span> </label>
+								<label><input name="list5" type="radio" value="" class="lists"><span>B. 大部分投资于A</span>  </label>
+								<label><input name="list5" type="radio" value="" class="lists"><span>C. 两种投资各一半</span>  </label>
+								<label><input name="list5" type="radio" value="" class="lists"><span>D. 大部分投资于B</span> </label>
+								<label><input name="list5" type="radio" value="" class="lists"><span>E. 全部投资于B</span>  </label>
+							</div>
+						</div>
+						
+						<div class="interlocution_go " id="interlocution_go">
+							<p>7. 　假如您前期用25元购入一只股票，该股现在升到30元，而根据预测该股近期有一半机会升到35元，另一半机会跌到25元，您现在会 : </p>
+							<div action="" method="get" class="particulars">
+								<label><input name="list6" type="radio" value="" class="lists"><span>A. 立刻卖出</span> </label>
+								<label><input name="list6" type="radio" value="" class="lists"><span>B. 部分卖出</span>  </label>
+								<label><input name="list6" type="radio" value="" class="lists"><span>C. 继续持有</span>  </label>
+								<label><input name="list6" type="radio" value="" class="lists"><span>D. 继续买入</span> </label>
+								
+							</div>
+						</div>
+						
+						<div class="interlocution_go " id="interlocution_go">
+							<p>8.　同上题情况，该股现在已经跌到20元，而您估计该股近期有一半机会升回25元，另一半机会继续下跌到15元，您现在会 : </p>
+							<div action="" method="get" class="particulars">
+								<label><input name="list7" type="radio" value="" class="lists"><span>A. 立刻卖出</span> </label>
+								<label><input name="list7" type="radio" value="" class="lists"><span>B. 部分卖出</span>  </label>
+								<label><input name="list7" type="radio" value="" class="lists"><span>C. 继续持有</span>  </label>
+								<label><input name="list7" type="radio" value="" class="lists"><span>D. 继续买入</span> </label>
+								
+							</div>
+						</div>
+						
+						<div class="interlocution_go  interlocution_gos" id="interlocution_go">
+							<p>9.　当您进行投资时，您的首要目标是 : </p>
+							<div action="" method="get" class="particulars particularss">
+								<label><input name="list8" type="radio" value="" class="lists"><span>A. 资产保值，我不愿意承担任何投资风险</span> </label>
+								<label><input name="list8" type="radio" value="" class="lists"><span>B. 尽可能保证本金安全，不在乎收益率比较低</span>  </label>
+								<label><input name="list8" type="radio" value="" class="lists"><span>C. 产生较多的收益，可以承担一定的投资风险</span>  </label>
+								<label><input name="list8" type="radio" value="" class="lists"><span>D. 实现资产大幅增长，愿意承担很大的投资风险</span> </label>
+								
+							</div>
+						</div>
+						
+						<div class="interlocution_go  interlocution_gos" id="interlocution_go">
+							<p>10.　您的投资经验可以被概括为 : </p>
+							<div action="" method="get" class="particulars particularss">
+								<label><input name="list9" type="radio" value="" class="lists" style="margin-top: -12px;" ><span>A. 有限：除银行活期账户和定期存款外 , 我基本没有其他投资经验</span> </label>
+								<label><input name="list9" type="radio" value="" class="lists" style="margin-top: -12px;" ><span>B. 一般：除银行活期账户和定期存款外,我购买过基金、保险等理财产品，但还需要进一步的指导</span>  </label>
+								<label><input name="list9" type="radio" value="" class="lists" style="margin-top: -12px;" ><span>C. 丰富：我是一位有经验的投资者,参与过股票、基金等  产品的交易，并倾向于自己做出投资决策</span>  </label>
+								<label><input name="list9" type="radio" value="" class="lists" style="margin-top: -12px;" ><span>D. 非常丰富：我是一位非常有经验的投资者,参与过权证、期货或创业板等高风险产品的交易</span> </label>
+								
+							</div>
+						</div>
+						
+						<div class="interlocution_go  interlocution_gos" id="interlocution_go">
+							<p>11.　您是否了解证券市场的相关知识 : </p>
+							<div action="" method="get" class="particulars particularss">
+								<label><input name="list10" type="radio" value="" class="lists"><span>A. 从来没有参与过证券交易，对投资知识完全不了解</span> </label>
+								<label><input name="list10" type="radio" value="" class="lists" style="margin-top: -12px;" ><span>B. 学习过证券投资知识，但没有实际操作经验，       不懂投资技巧</span>  </label>
+								<label><input name="list10" type="radio" value="" class="lists" style="margin-top: -12px;" ><span>C. 了解证券市场的投资知识，并且有过实际操作经验，       懂得一些投资技巧</span>  </label>
+								<label><input name="list10" type="radio" value="" class="lists" style="margin-top: -12px;" ><span>D. 参与过多年的证券交易，投资知识丰富，具有一定的       专业水平</span> </label>
+								
+							</div>
+						</div>
+						
+						<div class="interlocution_go " id="interlocution_go">
+							<p>12.　您用于证券投资的资金不会用作其它用途的时间段为 : </p>
+							<div action="" method="get" class="particulars">
+								<label><input name="list11" type="radio" value="" class="lists"><span>A. 短期——0到1年</span> </label>
+								<label><input name="list11" type="radio" value="" class="lists"><span>B. 中期——1到5年</span>  </label>
+								<label><input name="list11" type="radio" value="" class="lists"><span>C. 长期——5年以上</span>  </label>
+								
+								
+							</div>
+						</div>
+					</form>
+					<input class="btnSubmit" id="btnSubmit" value="提交">
+				</div>
+		</div>
+	</div>
+	<!-- 内容结束 -->
+	<!-- 页脚 -->
+	<div class="footer mt40">
+		<div class="layout footer_link">
+			<div class="clearfix">
+				<ul class="footer_col_1">
+					<li>小满金服</li>
+					<li><a href="">关于我们</a></li>
+					<li><a href="">业务模式</a></li>
+					<li><a href="">网站公告</a></li>
+					<li><a href="">联系我们</a></li>
+					<li><a href="">小满招聘</a></li>
+				</ul>
+				<ul class="footer_col_2">
+					<li>帮助中心</li>
+					<li><a href="">新手引导</a></li>
+					<li><a href="">债权转让</a></li>
+					<li><a href="">常见问题</a></li>
+					<li><a href="">新手奖励</a></li>
+					<li><a href="">邀请好友</a></li>
+				</ul>
+				<ul class="footer_col_3">
+					<li>安全保障</li>
+					<li>
+						<li><a href="">安全保障</a></li>
+						<li><a href="">禁止行为</a></li>
+						<li><a href="">用户协议</a></li>
+						<li><a href="">法律法规</a></li>
+						<li><a href="">免责声明</a></li>
+					</li>
+					<!-- <li>市场合作 <br/><a href="mailto:Marketing@xiaomanjf.com">Marketing@xiaomanjf.com</a></li>
+					<li>招商合作<br/><a href="mailto:zhaoshang@xiaomanjf.com">zhaoshang@xiaomanjf.com</a></li> -->
+				</ul>
+				<ul class="footer_col_4">
+					<li style="margin-bottom: 10px;">客服热线</li>
+					<li>400-844-5558 (9:00-18:00)</li>
+					<li style="font-size: 14px;color: #fff;margin: 10px 0;">市场合作</li>
+					<li>市场合作 <br/><a href="mailto:Marketing@xiaomanjf.com">Marketing@xiaomanjf.com</a></li>
+				</ul>
+				<ul class="footer_col_5">
+				 	<li>
+						<img src="../static/images/WeChat.jpg" alt="">
+						<p>下载APP</p>
+					</li>
+					<li>
+						<img src="../static/images/WeChat.jpg" alt="">
+						<p>扫码关注小满金服</p>
+					</li>
+				</ul>
+			</div>
+			<div class="links">
+				友情链接：
+				<a href="">小满电商</a>
+				<a href="">小满众筹</a>
+				<a href="">淘宝</a>
+				<a href="">天猫</a>
+				<a href="">阿里巴巴</a>
+				<a href="">百度</a>
+				<a href="">新浪</a>
+				<a href="">网易</a>
+				<a href="">搜狐</a>
+				<a href="">小满电商</a>
+				<a href="">小满众筹</a>
+				<a href="">百度</a>
+				<a href="">新浪</a>
+				<a href="">搜狐</a>
+				<a href="">阿里巴巴</a>
+				<a href="">淘宝</a>
+				<a href="">小满众筹</a>
+				<a href="">更多∨</a>
+			</div>
+		</div>	
+		<div class="layout footer_bar">
+			<p>Copyright &copy; 2016-2017小满金服(大连)有限公司  All Rights Reserved 辽ICP备16004265号-2</p>
+			<p>地址：辽宁省大连市中山区延安路保嘉大厦15楼1516室    电话：400-844-5558</p>
+		</div> 
+	</div>
+	<!-- 页脚结束 -->
+	<!-- 右侧导航 -->
+	<div class="nav_sidebar_right">
+		<ul>	
+			<!-- 签到成功添加CLASS ckeckinon -->
+			<li>
+				<a href="" class="nockeckin">
+					<div class="nologin">
+						<i class="arrow_pic"></i>
+						<div class="check_tit">请登录</div>
+					</div>	
+					<div class="login">
+						<i class="arrow_pic"></i>
+						<div class="check_tit">已经签,获得300积分</div>
+					</div>
+				</a>
+			</li>
+			<li><a href="" class="xiaoman">
+				<img src="../static/images/WeChat.jpg" alt="">
+			</a></li>
+			<li><a href="" class="focusus"></a></li>
+			<li><a href="" class="contact"></a></li>
+			<li><a href="" class="backtop"></a></li>
+		</ul>
+	</div>
+	<!-- 右侧导航 end-->
+<script src="../static/js/jquery.min.js"></script>	
+
+<script src="../static/js/common.js"></script>
+
+
+<script>
+
+	//控制选择高亮
+	(function(){
+		var lists=document.getElementsByClassName('lists');
+		
+		var btnSubmit=document.getElementById('btnSubmit');
+		
+	
+		//$('.interlocution_go').div
+		for(var i=0;i<lists.length;i++){
+			
+			lists[i].onclick=function(){
+				//背景
+				this.parentNode.style.background='#eb6100';
+				$(this).parent().parent().parent().attr("class","interlocution_click");
+				//字体
+				$(this).siblings().css({
+					"color":"#fff"
+				})
+				$(this).parent().siblings().children().css({
+					"color":"#000"
+				})
+				//背景
+				$(this).parent().siblings(). css({
+					"background-color":"#fff"
+					
+				})
+			}
+			
+			//提交表单
+			btnSubmit.onclick=function(){
+				$(".interlocution_go"). css({
+					"border":"1px solid #f43500",
+					"background-color":"#fdd7cc"
+				});
+				//重新判断没有选中 再次选中时候的样式
+				for(var i=0;i<lists.length;i++){
+					if(lists[i].checked ==false){
+					
+						lists[i].onclick=function(){
+							$(this).parent().parent().parent().css({
+								"background-color":"#fff",
+								"border":"1px solid #fff",
+					
+							})
+							$(this).parent().parent().parent().attr("class","interlocution_click");
+							$(this).siblings().css({
+								"color":"#fff"
+							})
+							this.parentNode.style.background='#eb6100';
+							$(this).parent().siblings(). css({
+								"background-color":"#fff"
+					
+							})
+							$(this).parent().siblings().children().css({
+								"color":"#000"
+							})
+						}
+					}
+				}
+			}
+			
+		}
+	})();
+
+</script>
+</body>
+</html>

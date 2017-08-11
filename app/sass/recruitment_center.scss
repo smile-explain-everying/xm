@@ -1,0 +1,203 @@
+@charset "utf-8";
+/*announcement*/
+@import  "helpers/_mixins.scss";                  //常用变量定义
+@import  "components/_popup.scss";                //错误提示
+
+$fn_blue:#1874b7;
+.fn_69{
+    color: #696969;
+}
+.fn_33{
+    color: #333; 
+}
+.fn_blue{
+    color: #299dff; 
+}
+.pb60{ 
+    padding-bottom:60px;
+}
+.mt105{
+    margin-top: 105px;
+}
+.last_child{
+    display: inline-block; 
+    width: 100%;
+    height: 53px;
+} 
+.fn_btn{
+    display: block;
+    width: 180px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff!important;
+    background: $fn_blue;
+    @include border-radius(5px);
+    margin:10px auto 50px;
+}
+.content{
+    min-height: 790px;
+    
+}
+.content_list{
+    background: #fff;
+   
+        .recruit_top{
+        
+            height: 80px;
+            text-align: center;
+            line-height: 80px;
+            color: #000;
+            font-size: 24px;
+            p{
+                margin-top: -20px;
+                font-size: 14px;
+            }
+        }
+        .recruit_wire{
+            width: 100px;
+            height: 2px;
+            background: orange;
+            margin: 0 auto;
+            margin-top: -20px;
+        }
+        .six_banner{
+           margin: 0 auto;
+          
+           margin-top: 30px;
+//         overflow: hidden;
+           background: url(../images/zp_six_bg.png) no-repeat -10px 0;
+           height:418px;
+           position: relative;
+           
+           .zp_job{
+               position: relative;
+               margin-left: 874px;
+               
+               top: 22px;
+               width: 152px;
+               height: 147px;
+               background-image: url(../images/six_sum.png);
+               background-position-x:-1px;
+               background-position-y:-10px;
+               text-align: center;
+               line-height: 52px;
+               p{
+                   font-size: 16px;
+                   color: #5e5e5e;
+                   padding:0 20px;
+                   overflow: hidden;
+                    text-overflow:ellipsis;
+                    white-space: nowrap;
+               }
+               span{
+                   font-size: 16px;
+                   color: #fff;
+               }
+               img{
+                   position: relative;
+                   top: 6px;
+                   margin-top: -121px;
+                   margin-left:-1px;
+                   display: none;
+                   cursor: pointer;
+               }
+           }
+           .zp_job:hover img{
+               display: block;
+           }
+           
+        }
+        .contenter{
+            margin-top: 20px;
+            
+            .theme_title{
+                text-align: center;
+            }
+            .theme_title p{
+                font-size: 12px;
+                color: #696969;
+                margin-top: 10px;
+            }
+            .Job_Details{
+                background: #f7f7f7;
+                
+            }
+            .Job_duty{
+                width: 60px;
+                height: 24px;
+                border: 1px solid #696969;
+                text-align: center;
+                line-height: 24px;
+                margin: 0 auto;
+                font-size: 12px;
+                color: #696969;
+                margin-top: 20px;
+            }
+            .substance{
+                text-align: center;
+                color: #696969;
+                font-size: 14px;
+                margin-top: 20px;
+               
+            }
+            .substance p{
+                margin-top: 10px;
+            }
+            .Job_dutys{
+                margin-top: 130px;
+            }
+            .substances{
+                color: #5e5e5e;
+                font-weight: 800;
+                font-size: 24px;
+                /*letter-spacing:5px;*/
+            }
+            .Job_dutys{
+                width: 60px;
+                height: 24px;
+                
+                text-align: center;
+                line-height: 24px;
+                margin: 0 auto;
+                font-size: 12px;
+                color: #696969;
+               padding-top: 20px;
+            }
+            .Job_description{
+                width: 850px;
+                display: none;
+            }
+            .Job_description_title{
+                text-align: center;
+                background: #fff;
+                .job_p{
+                    margin: 0 auto;
+                    width: 120px;
+                    border-bottom: 2px solid #ff7f00;
+                }
+            }
+            .job_contenter{
+                border-top: 1px solid #aeaeae;
+                border-bottom: 1px solid #aeaeae;
+                margin-top: 40px;
+                
+                padding-bottom: 35px;
+                margin-bottom: 50px;
+                h3{
+                    font-weight: 800;
+                    font-size: 18px;
+                    margin-bottom: 15px;
+                    margin-top: 50px;
+                }
+                p{
+                    font-size: 14px;
+                    color: #5e5e5e;
+                    
+                }
+            }
+        }
+
+
+        
+        
+}

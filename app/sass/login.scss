@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/*zh 2017 0411 v1.0*/
+//withdraw
+@import  "helpers/_mixins.scss";   
+@import  "components/_message.scss";                //错误提示
+.content{
+	display: flex;
+    min-height: 65vh;
+    flex-direction:column;
+    .layout{
+        padding: 15px;
+    }
+    .content_wrap{
+        height: 390px;
+        overflow: hidden;
+       background: $whiteColor;
+       box-shadow: 0 0 5px #e0d1b4;
+        div{
+            float: left;
+        }
+        .show_img{
+            width: 586px;
+            height: 390px;
+            img{
+                width: 586px;
+                height: 390px;
+            }
+        }
+        .login_box{
+            width: 290px;
+            height: auto;
+            margin:0 42px 0 52px;
+            h3{
+                width: 100%;
+                height: 18px;
+                font-size: 18px;
+                line-height: 18px;
+                text-align: center;
+                padding: 10px 0 50px 0;
+            }
+            p{
+                width: 100%;
+                height: 25px;
+                color: #686868;
+                font-size: 14px;
+                border-bottom: 1px solid #999999;
+                overflow: hidden;
+                margin-bottom: 20px;
+                input{
+                    position: relative;
+                    width: 220px;
+                    font-size: 14px;
+                    outline: none;
+                    border: none;
+                    color: #363636;
+                    padding-left: 20px;
+                }
+            }
+            .find_pw{
+                border: none;
+                text-align: right;
+                line-height: 14px;
+                a{
+                    color: #299eff;
+                }
+            }
+            .error{
+                /*position: absolute;*/
+                font-size: 12px;
+                color: #ea3b28;
+                margin-top:-10px; 
+                i{
+                    width: 19px;
+                    height: 19px;
+                    background: url(../images/sprite.png) no-repeat;
+                    background-position: -160px -136px;
+                }
+            }
+            .login_btn{
+                border:none;
+                margin: 0 auto;
+                height: 40px;
+                text-align: center;
+                button{
+                    width: 260px;
+                    height: 35px;
+                    line-height: 35px;
+                    outline: none;
+                    border: none;
+                    font-size: 18px;
+                    color: #fff;
+                    text-align: center;
+                    background: #ff9c00;
+                    cursor: pointer;
+                    @include border-radius(35px)
+                    &:hover {
+                        background: #feae32;
+                    }
+                }
+
+            }
+            .register_link{
+                width: 100%;
+                height: 12px;
+                line-height: 12px;
+                font-size: 12px;
+                color: #aaaaaa;
+                text-align:center;
+                padding-top: 10px; 
+                border: none;
+                a{
+                    color: #ea3b28;
+                }
+            }
+        }
+    }
+}

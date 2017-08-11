@@ -1,0 +1,42 @@
+/*zh 2017 0523 v1.0*/
+.content .part_hd {
+  padding: 65px 0;
+  text-align: center; }
+  .content .part_hd h2 {
+    margin-bottom: 4px; }
+    .content .part_hd h2 span {
+      font-size: 24px;
+      color: #000;
+      padding-bottom: 4px;
+      border-bottom: 2px solid #ff9c00; }
+  .content .part_hd .tabbar li {
+    float: left;
+    width: 240px;
+    height: 70px;
+    border: 1px solid #5e5e5e;
+    border-right: none; }
+    .content .part_hd .tabbar li:nth-last-of-type(1) {
+      border-right: 1px solid #5e5e5e; }
+    .content .part_hd .tabbar li a {
+      line-height: 70px;
+      display: block;
+      color: #5e5e5e;
+      text-align: center; }
+  .content .part_hd .tabbar li.active a {
+    background-color: #ff7f00;
+    color: #fff; }
+
+.content .part_bd {
+  background-color: #fff;
+  text-align: center; }
+  .content .part_bd ul li {
+    display: none;
+    text-align: center;
+    padding: 85px 0 95px; }
+    .content .part_bd ul li p {
+      line-height: 28px;
+      font-size: 14px;
+      color: #5e5e5e; }
+
+.content .plan {
+  text-align: center; }
